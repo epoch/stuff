@@ -1,7 +1,15 @@
 {
   "parser"  : "babel-eslint",
   "extends": ["eslint:recommended"],
-  "env"     : {
+  "plugins": ["react"],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
     "browser" : true, # window
     "node": true # require
   },
@@ -9,6 +17,7 @@
     "strict": 0,
     "no-console": 0,
     "quotes": [2, "single"],
-    "eqeqeq": 0
+    "eqeqeq": 0,
+    "react/jsx-uses-react": 1,    
   }
 }
