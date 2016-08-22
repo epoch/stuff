@@ -1,0 +1,21 @@
+.query-box {
+  background-color: mistyrose;
+  padding: 5px 10px;
+  border-radius: 4px;
+
+  span::before {
+    content: 's';
+    font-family: 'iconfont';
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  input {
+    background: transparent;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    font-size: 1.2em;
+  }
+ 
+}

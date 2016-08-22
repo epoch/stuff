@@ -7,8 +7,95 @@
 </head>
 <body>
 
-  <div class="hipstarter">
-    <h1>welcome to sassy hipstarter!</h1>
+  <div class="root">
+
+    <div class="search">
+
+      <section class="query">
+        <div class="query-box">
+          <span></span>
+          <input class="q" type="text" placeholder="Search">
+        </div>
+        <p class="status-bar">last refreshed 5 secs ago</p>
+      </section>
+
+      <section class="results">
+
+        <div class="result-item">
+          <span class="last-modified">2 hours ago</span>
+          <ul>
+            <li><a href="">week11.md</a></li>
+            <li><a href="">wdi_week11_js.md</a></li>
+            <li><a href="">toilet.js</a></li>
+          </ul>
+          <p>I eat rainbows and poop butterflies</p>
+        </div>
+
+        <div class="result-item active">
+          <span class="last-modified">2 hours ago</span>
+          <ul>
+            <li><a href="">nodejs</a></li>            
+            <li><a href="">ex1.js</a></li>
+            <li><a href="">ex2.js</a></li>
+            <li><a href="">ex3.js</a></li>            
+          </ul>
+          <p>I eat rainbows and poop butterflies</p>
+        </div>
+        
+        <div class="result-item">
+          <span class="last-modified">2 hours ago</span>
+          <ul>
+            <li><a href="">week11.md</a></li>
+            <li><a href="">toilet.js</a></li>
+          </ul>
+        </div>
+
+      </section>
+    </div>
+
+    <div class="preview">
+      <header class="preview-topbar">
+        <a href="">link</a>
+        last active 2 hour ago
+      </header>
+
+      <p>I eat rainbows and poop butterflies</p>
+
+      <div class="files">
+
+        <article class="file">
+          <header>
+            week11.md
+          </header>
+
+          <section>
+            <h2>closures</h2>
+            <p>dsfsd fsd fds fsdfsd dsf sdfsd sdfsdfsdf</p>
+          </section>
+        </article>
+        
+        <article class="file">
+          <header>
+            toilet.js
+          </header>
+
+          <section>
+            <h2>this keyword</h2>
+            <ul>
+              <li>sdsdf
+                <ul>
+                  <li>sdfsdfs</li>
+                </ul>
+              </li>
+              <li>sdfsddfs</li>
+            </ul>
+          </section>
+
+        </article>
+
+      </div>
+    </div>
+
   </div>
 
   <script src="bundle/bundle.js"></script>

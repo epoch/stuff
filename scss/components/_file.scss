@@ -1,0 +1,22 @@
+.file {
+  // padding: 0.3em;
+  margin-bottom: 1em;
+  background: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+
+  &:hover {
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.4);
+  }
+
+  > header {
+    border-bottom: 1px solid #eee;
+    // font-weight: bold;
+    // margin-bottom: 1em;
+    padding: 0.3em;
+  }
+
+  > section {
+    padding: 0.3em;
+  }
+}

@@ -1,0 +1,26 @@
+.result-item {
+  padding: 0.5em;
+  border-bottom: 1px solid #ccc;
+
+  > span {
+    float: right;
+    color: gray;
+  }
+
+  > p {
+    color: gray;
+  }
+
+  > ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  > ul li {
+    padding-bottom: 0.2em;
+  }
+}
+
+.result-item.active {
+  background: #f5f5f5;
+}
